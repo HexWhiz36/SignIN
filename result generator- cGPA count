@@ -16,7 +16,7 @@ int main()
     printf("                        ------------------------------------------------------------\n");
     int press;
     presss:
-        printf("Enter our input: ");
+        printf("Enter your input: ");
     scanf("%d",&press);
         printf("\n");
 
@@ -239,8 +239,8 @@ int main()
         double a,b,c,d,e,f,gpa,cgpa;
 
         a= MAT*3;
-        b= PPS*1;
-        c= PPSL*3;
+        b= PPS*3;
+        c= PPSL*1;
         d= PHY*3;
         e= PHYL*1;
         f= ENG*1;
