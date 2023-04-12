@@ -15,6 +15,7 @@ int main()
         printf("                                          *  Result Generator  *\n");
         printf("                                          **********************\n");
         printf("                        ------------------------------------------------------------\n");
+        printf("                        |                                                           |\n");
         printf("                        |  1.Show the marks against all subjects       [Press-1]    |\n");
         printf("                        |  2.Show the students ID and the grade        [Press-2]    |\n");
         printf("                        |  3.Show all merit position                   [Press-3]    |\n");
@@ -24,7 +25,7 @@ int main()
 
 
         printf("\n");
-        printf("Enter your choice : ");
+        printf("                        Enter your choice : ");
         scanf("%d",&press);
         printf("\n");
 
@@ -610,18 +611,17 @@ int main()
         printf("\n");
         printf("\n");
 
-        printf("|---------------------------------|\n");
-        printf("|                                 |\n");
-        printf("|  [ Press 0 ] to CONTINUE        |\n");
-        printf("|                                 |\n");
-        printf("|  [ Press any key ] to EXIT      |\n");
-        printf("|                                 |\n");
-        printf("|---------------------------------|\n");
+        printf("                                   |-------------------------------------|\n");
+        printf("                                   |                                     |\n");
+        printf("                                   |  to CONTINUE   [ Press 0 ]          |\n");
+        printf("                                   |  to EXIT       [ Press any key ]    |\n");
+        printf("                                   |                                     |\n");
+        printf("                                   |-------------------------------------|\n");
 
         printf("\n");
         printf("\n");
 
-        printf("Enter your choice : ");
+        printf("                                   Enter your choice : ");
         scanf("%d",&press);
 
     }
